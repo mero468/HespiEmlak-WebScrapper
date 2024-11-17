@@ -47,7 +47,7 @@ excel_file = 'listings.xlsx'
 # Total number of pages. Each page has 24 listings
 total_pages = 226
 
-for page in range(85, total_pages + 1):
+for page in range(1, total_pages + 1):
     # Create page URL
     url = f'https://www.hepsiemlak.com/izmir-kiralik?page={page}'
 
